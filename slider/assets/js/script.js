@@ -39,6 +39,7 @@
 // })
 
 $(document).ready(function () {
+
     $(".left-icon").click(function () {
         let elem = $(".active-image")
         $(elem).removeClass("active-image");
@@ -54,10 +55,8 @@ $(document).ready(function () {
             $(elem).addClass("right");
         }
     });
-});
 
 
-$(document).ready(function () {
     $(".right-icon").click(function () {
         let elem = $(".active-image")
         $(elem).removeClass("active-image");
@@ -73,6 +72,7 @@ $(document).ready(function () {
             $(elem).addClass("right");
         }
     });
+
 });
 
 

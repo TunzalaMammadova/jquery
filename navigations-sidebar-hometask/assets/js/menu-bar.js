@@ -57,95 +57,82 @@
 //     productlist.classList.add("d-none");
 //     aboutlist.classList.add("d-none");
 //     homelist.classList.add("d-none");
-
-
 // })
 
 
-$(document).ready(function(){
-  $(".home-page").mouseover(function(){
+
+
+
+$(document).ready(function () {
+
+  $(".home-page").mouseover(function () {
     $(".home").removeClass("d-none");
     $(".product").addClass("d-none");
     $(".service").addClass("d-none");
     $(".contact-list").addClass("d-none");
     $(".about").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".about-page").mouseover(function(){
+
+  $(".about-page").mouseover(function () {
     $(".home").addClass("d-none");
     $(".product").addClass("d-none");
     $(".service").addClass("d-none");
     $(".contact-list").addClass("d-none");
     $(".about").removeClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".product-page").mouseover(function(){
+  $(".product-page").mouseover(function () {
     $(".home").addClass("d-none");
     $(".product").removeClass("d-none");
     $(".service").addClass("d-none");
     $(".contact-list").addClass("d-none");
     $(".about").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".service-page").mouseover(function(){
+  $(".service-page").mouseover(function () {
     $(".home").addClass("d-none");
     $(".product").addClass("d-none");
     $(".service").removeClass("d-none");
     $(".contact-list").addClass("d-none");
     $(".about").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".contact-page").mouseover(function(){
+  $(".contact-page").mouseover(function () {
     $(".home").addClass("d-none");
     $(".product").addClass("d-none");
     $(".service").addClass("d-none");
     $(".contact-list").removeClass("d-none");
     $(".about").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".home-page").mouseout(function(){
+  $(".home-page").mouseout(function () {
     $(".home").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".about-page").mouseout(function(){
+  $(".about-page").mouseout(function () {
     $(".about").addClass("d-none");
   });
-});
 
-$(document).ready(function(){
-  $(".service-page").mouseout(function(){
+
+  $(".service-page").mouseout(function () {
     $(".service").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".product-page").mouseout(function(){
+  $(".product-page").mouseout(function () {
     $(".product").addClass("d-none");
   });
-});
 
 
-$(document).ready(function(){
-  $(".contact-page").mouseout(function(){
+  $(".contact-page").mouseout(function () {
     $(".contact-list").addClass("d-none");
   });
+
 });
